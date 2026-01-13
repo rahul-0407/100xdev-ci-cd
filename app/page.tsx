@@ -30,8 +30,7 @@ export default function Home() {
       {confetti.map((particle) => (
         <div
           key={particle.id}
-          className="absolute h-3 w-3 rounded-full opacity-80"
-          className="animate-float"
+          className="absolute h-3 w-3 rounded-full opacity-80 animate-float"
           style={{
             left: `${particle.x}%`,
             top: `${particle.y}%`,
